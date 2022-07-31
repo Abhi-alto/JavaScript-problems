@@ -1,0 +1,16 @@
+let a,b,c,a1,a2,a3,a4;
+a=Math.floor(Math.random()*10);
+b=Math.floor(Math.random()*10);
+c=Math.floor(Math.random()*10);
+a1=a+b*c;
+console.log("a+b*c = "+a1);
+a2=c+a/b;
+console.log("c+a/b = "+a2);
+a3=a%b+c;
+console.log("a%b+c = "+a3);
+a4=a*b+c;
+console.log("a*b+c = "+a4);
+let array=[a1,a2,a3,a4];
+array=array.sort();
+console.log("Min. is = "+array[0]);
+console.log("Max. is = "+array[3]);
