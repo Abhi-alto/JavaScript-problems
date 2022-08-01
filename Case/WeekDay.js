@@ -26,3 +26,7 @@ switch(Math.floor(Math.random()*7))
         name="Invalid";
 }
 console.log(name);
+
+
+
+
